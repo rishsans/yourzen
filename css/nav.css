@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Hubballi&display=swap');
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.logo{
+    width: 180px;
+    height: 60px;
+    cursor: pointer;
+}
+
+.nav_links{
+    list-style: none;
+}
+
+.nav_links li{
+    display: inline-block;
+    padding: 0px 20px;
+}
+
+.nav_links li a{
+    transition: all 0.3s ease 0s;
+}
+
+.nav_links li a:hover{
+    color: #DDB6C6;
+    border-bottom: 2px solid #484C7F;
+}
+
+button{
+    padding: 9px 25px;
+    background-color: rgba(0, 136, 169, alpha);
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+}
+
+button:hover{
+    background-color: #AC8DAF;
+    color: white;
+}
+
+li, a, button{
+    font-family: 'Hubballi', cursive;
+    font-weight: 500;
+    font-size: 20px;
+    color: #484C7F;
+    text-decoration: none;
+}
+
+header{
+    position: fixed;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 10%;
+    width: 100vw;
+    background-color: white;
+}
+
+
+
+.scrolled {
+    background-color: #AC8DAF;
+    transition: 500ms;
+}
