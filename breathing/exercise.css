@@ -1,0 +1,36 @@
+body{
+    margin: 0;
+    padding: 0;
+    background: #DDB6C6;
+}
+
+.center{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    background: url(meditate.jpeg);
+    background-size: cover;
+    animation: animate 5s linear infinite;
+}
+
+@keyframes animate{
+    0%{
+        box-shadow: 0 0 0 15px rgba(72,76,127, .1), 0 0 0 30px rgba(72,76,127, .1), 
+    0 0 0 45px rgba(72,76,127, .1), 0 0 0 60px rgba(72,76,127, .1), 
+    0 0 0 75px rgba(72,76,127, .1), 0 0 0 90px rgba(72,76,127, .1);
+    }
+    50%{
+        box-shadow: 0 0 0 25px rgba(72,76,127, .1), 0 0 0 50px rgba(72,76,127, .1), 
+    0 0 0 75px rgba(72,76,127, .1), 0 0 0 100px rgba(72,76,127, .1), 
+    0 0 0 125px rgba(72,76,127, .1), 0 0 0 150px rgba(72,76,127, .1);
+    }
+    100%{
+        box-shadow: 0 0 0 15px rgba(72,76,127, .1), 0 0 0 30px rgba(72,76,127, .1), 
+    0 0 0 45px rgba(72,76,127, .1), 0 0 0 60px rgba(72,76,127, .1), 
+    0 0 0 75px rgba(72,76,127, .1), 0 0 0 90px rgba(72,76,127, .1);
+    }
+}
